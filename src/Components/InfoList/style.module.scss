@@ -1,0 +1,28 @@
+
+.info_list_wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    h2 {
+        color: #000;
+        font-weight: 500;
+        padding: 0 1rem;
+    }
+}
+
+.info_cell {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 0 1rem;
+    .info_cell_value {
+        border-radius: 0.3rem;
+        display: flex;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 1rem 0;
+        padding: 1rem;
+        background-color: #F4F4F5;
+        color: #B4C2D6;
+    }
+}

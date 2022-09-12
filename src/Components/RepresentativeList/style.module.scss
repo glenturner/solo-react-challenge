@@ -1,0 +1,45 @@
+
+.rep_list_container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 1rem;
+    .list_header {
+        color: #000;
+        font-weight: 500;
+        padding: 0 1rem;
+        span {
+            color: #479EFF !important;
+        }
+    }
+    .rep_cell_label {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: #F8F8F9;
+        border: 1px solid #E5E5E5;
+    }
+}
+
+.no_results {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.rep_list_row {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #d7d5d5;
+    white-space: nowrap;
+    justify-content: space-between;
+    cursor: pointer;
+    .rep_party {
+        display: flex;
+    }
+}
+
+.rep_list_row:hover {
+    background-color:#F8F8F9;
+}

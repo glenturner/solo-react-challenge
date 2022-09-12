@@ -1,0 +1,16 @@
+.dropdown_wrapper {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    width: 100%;
+
+    label {
+        padding: 0.5rem 0;
+        color: #000;
+        font-size: 0.8rem;
+        letter-spacing: 0.02051em;
+        font-weight: 600; 
+        width: 100%;
+        text-align: left;
+    }
+}
